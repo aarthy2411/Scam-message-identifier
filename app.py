@@ -8,14 +8,14 @@ MODEL = "gemma3:1b"
 OLLAMA_URL = "http://localhost:11434/api/chat"
 
 st.set_page_config(
-    page_title="Scam Message Investigator",
+    page_title="Scam Message Identifier",
     page_icon="💬",
     layout="wide"
 )
 
 
 
-st.title("💬 Scam Message Investigator")
+st.title("💬 Scam Message Identifier")
 st.caption(
     "AI-powered investigation using a locally running LLM"
 )
